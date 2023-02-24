@@ -1,0 +1,1 @@
+{"version":3,"file":"ContactForm.js","sourceRoot":"","sources":["../../src/models/ContactForm.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAEhC,MAAM,UAAU,GAAG,IAAI,QAAQ,CAAC,MAAM,CACpC;IACE,SAAS,EAAE,MAAM;CAClB,EACD,EAAE,UAAU,EAAE,KAAK,EAAE,CACtB,CAAC;AAEF,MAAM,CAAC,MAAM,WAAW,GAAG,QAAQ,CAAC,KAAK,CAAC,aAAa,EAAE,UAAU,CAAC,CAAC"}

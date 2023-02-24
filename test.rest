@@ -1,0 +1,19 @@
+@url= http://localhost:3627
+
+### GET BASE
+{{url}}
+
+### GET DATA
+GET {{url}}/contacts
+
+
+### POST DATA
+POST {{url}}/contact
+Content-Type: application/json
+
+{
+
+"firstName": "Hamdooooooooon"
+
+}
+
