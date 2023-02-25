@@ -1,3 +1,6 @@
 export interface IContactForm {
-  firstName: string;
+  name: string;
+  subject: string;
+  email: string;
+  message: string;
 }
