@@ -39,7 +39,7 @@ export const sendEmailToUser = (contactForm) => {
         },
     });
     const mailOptions = {
-        from: `<no-replay> Samman's Web Development Services <${process.env.GOOGLE_MAIL_ACCOUNT_USER}@gmail.com>`,
+        from: `<do-not-replay> Samman's Web Development Services`,
         to: `${contactForm.email}`,
         subject: `<no-replay> ${contactForm.subject}`,
         html: `
