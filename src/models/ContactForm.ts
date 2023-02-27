@@ -2,8 +2,14 @@ import mongoose from "mongoose";
 
 const formSchema = new mongoose.Schema(
   {
-    name: String,
-    subject: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    subject: {
+      type: String,
+      required: true,
+    },
     email: {
       type: String,
       lowerCase: true,
