@@ -48,12 +48,12 @@ export const sendEmailToUser = (contactForm: IContactForm) => {
 
   const mailOptions = {
     from: `<no-replay> Samman's Web Development Services <${process.env.GOOGLE_MAIL_ACCOUNT_USER}@gmail.com>`,
-    to: `sammanab@outlook.de`,
-    subject: `<replay> ${contactForm.subject}`,
+    to: `${contactForm.email}`,
+    subject: `<no-replay> ${contactForm.subject}`,
     html: `
-    <h1>Hallo ${contactForm.name}</h1>
-    <p>What does HTML stand for?</p>
-    <p>Click here for the answer: <a href="http://www.5amman.eu/">https://5amman.eu/</a></p>
+    <h1>Hello ${contactForm.name}!</h1>
+    <p>Thank you for contacting me, I will get back to you as soon as possible.</p>
+    <p>Click here to visit me: <a href="http://www.5amman.eu/">https://5amman.eu/</a></p>
     `,
   };
 

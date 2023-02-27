@@ -15,6 +15,7 @@ const formSchema = new mongoose.Schema({
     },
     message: {
         type: String,
+        required: true,
     },
 }, { versionKey: false });
 export const ContactForm = mongoose.model("contactform", formSchema);
