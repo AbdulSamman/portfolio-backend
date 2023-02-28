@@ -47,10 +47,10 @@ export const sendEmailToUser = (contactForm: IContactForm) => {
   });
 
   const mailOptions = {
-    from: `<do-not-replay> Samman's Web Development Services`,
+    from: `<do-not-reply> Samman's Web Development Services`,
     to: `${contactForm.email}`,
     bcc: `${"sammanab@outlook.de"}`,
-    subject: `<no-replay> ${contactForm.subject}`,
+    subject: `<no-reply> ${contactForm.subject}`,
     html: `
     <h1>Hello ${contactForm.name}!</h1>
     <p>Thank you for contacting me, I will get back to you as soon as possible.</p>
