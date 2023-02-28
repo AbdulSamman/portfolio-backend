@@ -80,9 +80,9 @@ export const getApiInstructions = () => {
 		color: yellow;
 	}
 </style>
-<h1>Employees Site API</h1>
+<h1>DATA Site API</h1>
 <ul>
-	<li><a href="employees">/employees</a> - get all employees</li>
+	<li><a href="/contacts">/contacts</a> - get all contacts</li>
 	
 </ul>
 	`;
