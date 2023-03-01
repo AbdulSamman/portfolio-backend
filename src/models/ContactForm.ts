@@ -5,10 +5,12 @@ const formSchema = new mongoose.Schema(
     name: {
       type: String,
       required: true,
+      min: 2,
     },
     subject: {
       type: String,
       required: true,
+      min: 2,
     },
     email: {
       type: String,
@@ -24,6 +26,7 @@ const formSchema = new mongoose.Schema(
     message: {
       type: String,
       required: true,
+      min: 4,
     },
   },
   { versionKey: false }
