@@ -3,6 +3,10 @@
 ### GET BASE
 {{url}}
 
+### GET BASE
+{{url}}/test
+
+
 ### GET DATA
 GET {{url}}/contacts
 

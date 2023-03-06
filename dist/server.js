@@ -20,6 +20,14 @@ app.get("/", (req, res) => {
         res.status(500).send(error);
     }
 });
+app.get("/test", (req, res) => {
+    try {
+        res.status(200).send("test");
+    }
+    catch (error) {
+        res.status(500).send(error);
+    }
+});
 app.get("/contacts", async (req, res) => {
     try {
         const result = await model.getContactForm();
