@@ -6,8 +6,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "npm run build && nodemon ",
-    "build": "tsc"
+    "build": "tsc --build",
+    "start": "node dist/server.js",
+    "setup": "npm i && pm2 start --name portfolio-backend npm -- start",
+    "deploy": "git pull --no-rebase && pm2 restart portfolio-backend --update-env --time && pm2 save"
   },
   "nodemonConfig": {
     "watch": [
