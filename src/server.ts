@@ -4,10 +4,12 @@ import * as model from "./model.js";
 import { IContactForm } from "./interfaces.js";
 import dotenv from "dotenv";
 dotenv.config();
+import logger from "./logger.js";
 
 const port = process.env.PORT || 3001;
 const app = express();
 app.use(express.json());
+app.use(logger);
 app.use(
   cors({
     origin: process.env.FRONTEND_URL,
@@ -35,11 +37,9 @@ app.get("/contacts", async (req: express.Request, res: express.Response) => {
 app.post("/contact", async (req: express.Request, res: express.Response) => {
   try {
     const contactForm: IContactForm = req.body;
-    console.log("sending mail");
-    const dt = new Date();
-    console.log(`TIME2: ${dt.toISOString()}`);
-    model.sendEmailToUser(contactForm);
+
     res.status(200).json(await model.sendContactForm(contactForm));
+    model.sendEmailToUser(contactForm);
   } catch (error) {
     res.status(500).send(error);
   }
