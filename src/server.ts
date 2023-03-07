@@ -37,7 +37,7 @@ app.post("/contact", async (req: express.Request, res: express.Response) => {
     const contactForm: IContactForm = req.body;
     console.log("sending mail");
     const dt = new Date();
-    console.log(`TIME: ${dt.toISOString()}`);
+    console.log(`TIME2: ${dt.toISOString()}`);
     model.sendEmailToUser(contactForm);
     res.status(200).json(await model.sendContactForm(contactForm));
   } catch (error) {

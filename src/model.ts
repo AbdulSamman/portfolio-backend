@@ -59,7 +59,8 @@ export const sendEmailToUser = (contactForm: IContactForm) => {
   };
 
   transporter.sendMail(mailOptions, (err, info) => {
- 
+    const dt = new Date();
+    console.log(`TIME1: ${dt.toISOString()}`);
     if (err) {
       console.log(err);
     } else {
