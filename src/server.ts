@@ -24,14 +24,6 @@ app.get("/", (req: express.Request, res: express.Response) => {
   }
 });
 
-app.get("/test", (req: express.Request, res: express.Response) => {
-  try {
-    res.status(200).send("test");
-  } catch (error) {
-    res.status(500).send(error);
-  }
-});
-
 app.get("/contacts", async (req: express.Request, res: express.Response) => {
   try {
     const result = await model.getContactForm();
