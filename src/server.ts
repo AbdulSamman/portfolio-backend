@@ -35,8 +35,11 @@ app.get("/contacts", async (req: express.Request, res: express.Response) => {
 app.post("/contact", async (req: express.Request, res: express.Response) => {
   try {
     const contactForm: IContactForm = req.body;
-    res.status(200).json(await model.sendContactForm(contactForm));
+    console.log("sending mail");
+    const dt = new Date();
+    console.log(`TIME: ${dt.toISOString()}`);
     model.sendEmailToUser(contactForm);
+    res.status(200).json(await model.sendContactForm(contactForm));
   } catch (error) {
     res.status(500).send(error);
   }
