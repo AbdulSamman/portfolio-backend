@@ -11,6 +11,8 @@ const transporter = createTransport({
   },
 });
 
+console.log(GOOGLE_MAIL_ACCOUNT_USER);
+
 const mailOptions = {
   from: "Language Community Site <gmailAccountName@gmail.com>",
   to: "sammanab89@gmail.com",
