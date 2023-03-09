@@ -23,7 +23,10 @@ const mailOptions = {
 `,
 };
 
+console.log("mail Option");
+
 transporter.sendMail(mailOptions, function (error, info) {
+  console.log("send Mail");
   if (error) {
     console.log(error);
   } else {
