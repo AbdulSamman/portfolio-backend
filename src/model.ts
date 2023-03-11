@@ -50,6 +50,8 @@ export const sendEmailToUser = (contactForm: IContactForm) => {
     html: `
   <h1>Hello ${contactForm.name}!</h1>
   <p>Thank you for contacting me, I will get back to you as soon as possible.</p>
+  <p>Your message:</p>
+  <blockquote><em>${contactForm.message}</em></blockquote>
   <p>Click here to visit me: <a href="https://portfolio.5amman.eu">Samman'S portfolio</a></p>
   `,
   };
