@@ -4,12 +4,11 @@ import * as model from "./model.js";
 import { IContactForm } from "./interfaces.js";
 import dotenv from "dotenv";
 dotenv.config();
-import logger from "./logger.js";
 
 const port = process.env.PORT || 3001;
 const app = express();
 app.use(express.json());
-app.use(logger);
+
 app.use(
   cors({
     origin: process.env.FRONTEND_URL,
