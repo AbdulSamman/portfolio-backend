@@ -2,18 +2,18 @@ import mongoose from "mongoose";
 const formSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true,
-        min: 2,
+        minlength: [2, "name must be at least 2 characters long"],
+        required: [true, "name is required"],
     },
     subject: {
         type: String,
-        required: true,
-        min: 2,
+        minlength: [2, "subject must be at least 2 characters long"],
+        required: [true, "subject is required"],
     },
     email: {
         type: String,
         lowerCase: true,
-        required: true,
+        required: [true, "email is required"],
         validate: {
             validator: function (v) {
                 return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v);
@@ -23,8 +23,8 @@ const formSchema = new mongoose.Schema({
     },
     message: {
         type: String,
-        required: true,
-        min: 4,
+        minlength: [4, "message must be at least 2 characters long"],
+        required: [true, "message is required"],
     },
 }, { versionKey: false });
 export const ContactForm = mongoose.model("contactform", formSchema);
