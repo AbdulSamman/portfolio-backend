@@ -11,7 +11,7 @@ app.use(cors({
     methods: ["POST", "GET"],
     credentials: true,
 }));
-//test
+// test
 app.get("/", (req, res) => {
     try {
         res.status(200).send(model.getApiInstructions());
