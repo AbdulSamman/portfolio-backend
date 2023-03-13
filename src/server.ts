@@ -16,7 +16,7 @@ app.use(
     credentials: true,
   })
 );
-//test
+// test
 app.get("/", (req: express.Request, res: express.Response) => {
   try {
     res.status(200).send(model.getApiInstructions());
