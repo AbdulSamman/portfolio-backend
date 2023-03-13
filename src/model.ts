@@ -44,7 +44,7 @@ export const sendEmailToUser = (contactForm: IContactForm) => {
       name: "<no-reply> Samman's Web Development Services",
       email: process.env.GOOGLE_MAIL_ACCOUNT_USER,
     },
-    bcc: "sammanab@outlook.de",
+    bcc: process.env.PRIVATE_EMAIL,
     subject: `<no-reply> ${contactForm.subject}`,
     text: "<no-reply> Samman's Web Development Services",
     html: `
