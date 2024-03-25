@@ -20,6 +20,33 @@ app.get("/", (req, res) => {
         res.status(500).send(error);
     }
 });
+//get Projects
+app.get("/projects", (req, res) => {
+    try {
+        res.status(200).send(model.getProjects());
+    }
+    catch (error) {
+        res.status(500).send(error);
+    }
+});
+//get skills
+app.get("/skills", (req, res) => {
+    try {
+        res.status(200).send(model.getSkills());
+    }
+    catch (error) {
+        res.status(500).send(error);
+    }
+});
+//get personData
+app.get("/person", (req, res) => {
+    try {
+        res.status(200).send(model.getPerson());
+    }
+    catch (error) {
+        res.status(500).send(error);
+    }
+});
 app.get("/contacts", async (req, res) => {
     try {
         const result = await model.getContactForm();

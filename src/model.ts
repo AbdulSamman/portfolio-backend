@@ -1,10 +1,10 @@
 import { ContactForm } from "./models/ContactForm.js";
 import mongoose from "mongoose";
-import { IContactForm } from "./interfaces.js";
+import { IContactForm,IPerson,IProject,ISkill } from "./interfaces.js";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 dotenv.config();
-
+import fs from "fs"
 const MONGODB_CONNECTION =
   process.env.MONGODB_CONNECTION || "mongodb://localhost/contactForm";
 
@@ -12,6 +12,41 @@ mongoose.set("strictQuery", false);
 mongoose.connect(MONGODB_CONNECTION);
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
+//data
+
+export const getProjects=()=>{
+try {
+    const project  =  fs.readFileSync("./src/data/projects.json","utf-8")
+    return JSON.parse(project) as IProject[]
+} catch (error) {
+  console.error("Error reading person data:",error);
+
+}
+
+}
+
+export const getSkills=()=>{
+  try {
+      const skills=  fs.readFileSync("./src/data/skills.json","utf-8")
+      return JSON.parse(skills) as ISkill[]
+  } catch (error) {
+    console.error("Error reading person data:",error);
+
+  }
+
+  }
+
+  export const getPerson=()=>{
+    try {
+        const personData=  fs.readFileSync("./src/data/person.json","utf-8")
+        return JSON.parse(personData) as IPerson
+    } catch (error) {
+      console.error("Error reading person data:",error);
+
+    }
+
+    }
 
 export const getContactForm = async () => {
   const formData: IContactForm[] = await ContactForm.find();
@@ -82,7 +117,7 @@ export const getApiInstructions = () => {
 <h1>DATA Site API</h1>
 <ul>
 	<li><a href="/contacts">/contacts</a> - get all contacts</li>
-	
+  <li><a href="/projects">/projects</a> - get all projects</li>
 </ul>
 	`;
 };

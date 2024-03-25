@@ -25,6 +25,35 @@ app.get("/", (req: express.Request, res: express.Response) => {
   }
 });
 
+//get Projects
+app.get("/projects",(req:express.Request,res:express.Response)=>{
+  try {
+    res.status(200).send(model.getProjects())
+  } catch (error) {
+    res.status(500).send(error);
+  }
+})
+
+//get skills
+app.get("/skills",(req:express.Request,res:express.Response)=>{
+  try {
+    res.status(200).send(model.getSkills())
+  } catch (error) {
+    res.status(500).send(error);
+  }
+})
+
+//get personData
+app.get("/person",(req:express.Request,res:express.Response)=>{
+  try {
+    res.status(200).send(model.getPerson())
+  } catch (error) {
+    res.status(500).send(error);
+  }
+})
+
+
+
 app.get("/contacts", async (req: express.Request, res: express.Response) => {
   try {
     const result = await model.getContactForm();

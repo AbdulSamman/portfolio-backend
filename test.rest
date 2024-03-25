@@ -1,9 +1,18 @@
-@url= http://localhost:3627
+@url= http://localhost:3727
 
 ### GET BASE
 {{url}}
 
- 
+### GET person
+GET {{url}}/person
+
+### GET projects
+GET {{url}}/projects
+
+
+### GET skills
+GET {{url}}/skills
+
 
 ### GET DATA
 GET {{url}}/contacts
