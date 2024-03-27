@@ -29,7 +29,7 @@ try {
 export const getSkills=()=>{
   try {
       const skills=  fs.readFileSync("./src/data/skills.json","utf-8")
-      return JSON.parse(skills) as ISkill[]
+      return JSON.parse(skills) as ISkill
   } catch (error) {
     console.error("Error reading person data:",error);
 

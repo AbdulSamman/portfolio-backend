@@ -7,7 +7,9 @@ export interface IContactForm {
 export interface IPerson {
   firstName: string;
   lastName: string;
-  githubName: string;
+  gitHubLink: string;
+  linkedinLink: string;
+  title: string;
   hobbys: string[];
   description: string;
 }
@@ -22,6 +24,8 @@ export interface IProject {
   description: string;
 }
 export interface ISkill {
-  type: string;
-  value: number;
+  id:number,
+  title:string,
+  skills:string[]
+
 }

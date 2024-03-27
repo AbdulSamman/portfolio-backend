@@ -1,18 +1,34 @@
 [
   {
-    "type": "JAVASCRIPT",
-    "value": 95
+    "id":1,
+    "title":"backend",
+    "skills":["javaScript","typeScript","nodeJs"]
+
   },
-  { "type": "TYPESCRIPT", "value": 90 },
-  { "type": "REACT", "value": 95 },
-  { "type": "HTML", "value": 99 },
-  { "type": "CSS", "value": 90 },
-  { "type": "BOOTSTRAP", "value": 99 },
-  { "type": "TAILWIND", "value": 85 },
-  { "type": "SASS", "value": 90 },
-  { "type": "NODE.JS", "value": 85 },
-  { "type": "EXPRESS.JS", "value": 90 },
-  { "type": "MONGODB", "value": 89 },
-  { "type": "MONGOOSE", "value": 85 },
-  { "type": "CYPRESS", "value": 70 }
+  {
+    "id":2,
+    "title":"frontend",
+    "skills":["javaScript","typeScript","react","vite","html5","sass","tailwind","bootstrap","css3"]
+
+  },
+  {
+
+    "id":3,
+    "title":"database",
+    "skills":["mongoDb","noSql"]
+
+  },
+  {
+
+    "id":4,
+    "title":"devops",
+    "skills": ["gitHub"]
+
+  },
+  {
+    "id":5,
+    "title":"testing",
+    "skills":["cypress"]
+
+  }
 ]
