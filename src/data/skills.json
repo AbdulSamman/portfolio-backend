@@ -30,5 +30,11 @@
     "title":"testing",
     "skills":["cypress"]
 
+  },
+  {
+    "id":6,
+    "title":"devtools",
+    "skills":["vercel","netlify","hetzner"]
+
   }
 ]
