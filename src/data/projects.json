@@ -1,15 +1,52 @@
 [
   {
     "id": 1,
+    "name": "Watch",
+    "image": "/images/projects/watch.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/watch",
+    "url": "https://watch-gules-rho.vercel.app/",
+    "description": "This is a frontend-designed Watch"
+  },
+  {
+    "id": 2,
+    "name": "German Article Pratcise",
+    "image": "/images/projects/germanArticle.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/german-article",
+    "url": "https://german-article.vercel.app/",
+    "description": "This is a nominative German article practice designed for frontend use"
+  },
+  {
+    "id": 3,
+    "name": "Sass basics",
+    "image": "/images/projects/sassBasics.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/sass-basic",
+    "url": "",
+    "description": "This is a frontend designed for Sass basics using loops"
+  },
+  {
+    "id": 4,
+    "name": "To-Do-App",
+    "image": "/images/projects/toDoApp.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/toDoApp",
+    "url": "https://to-do-app-ten-pearl.vercel.app/",
+    "description": "This is a frontend designed to-do-app with local storage"
+  },
+
+  {
+    "id": 5,
     "name": "NextJs with Tailwind css",
     "image": "/images/projects/nextjs-tailwind.png",
     "tags": ["react", "tailwind", "typescript", "nextJs"],
     "repo": "https://github.com/AbdulSamman/nextjs-usecontext",
     "url": "https://nextjs-usecontext.vercel.app/",
-    "description": "This is my inaugural project with Next.js and Tailwind. It demonstrates the utilization of Tailwind css (v3.2) in conjunction with Next.js."
+    "description": "This is my augural project with Next.js and Tailwind. It demonstrates the utilization of Tailwind css (v3.2) in conjunction with Next.js."
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "mongodbTest CRUD",
     "image": "/images/projects/mongodbTest.png",
     "tags": ["express", "mongodb", "typescript"],
@@ -18,7 +55,7 @@
     "description": "you can utilize REST to build a server using express and Mongoose. This will provide you with the ability to implement basic CRUD (Create, Read, Update, and Delete) functionality for your data."
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Cypress Test",
     "image": "/images/projects/cypressTest.png",
     "tags": ["react", "cypress", "typescript", "scss"],
@@ -26,42 +63,7 @@
     "url": "",
     "description": "Simple react Site with simple Cypress Test"
   },
-  {
-    "id": 4,
-    "name": "Vitest",
-    "image": "/images/projects/vitest.png",
-    "tags": ["react", "vitest", "typescript"],
-    "repo": "https://github.com/AbdulSamman/first-test-vitest",
-    "url": "",
-    "description": "Simple react Site with simple Vitest"
-  },
-  {
-    "id": 5,
-    "name": "SQlite CRUD flashcards",
-    "image": "/images/projects/sqliteCrudFlashcards.png",
-    "tags": ["react", "scss", "typescript", "sqlite", "express"],
-    "repo": "https://github.com/AbdulSamman/sqlite-crud-flashcards-frontend",
-    "url": "",
-    "description": "Develop a basic full-stack flashcards application with CRUD functionality"
-  },
-  {
-    "id": 6,
-    "name": "SQlite readonly flashcards",
-    "image": "/images/projects/sqliteReadonlyFlashcards.png",
-    "tags": ["react", "scss", "typescript", "express", "sqlite"],
-    "repo": "https://github.com/AbdulSamman/sqlite-readonly-flashcards-frontend",
-    "url": "",
-    "description": "Create a readonly full-stack flashcards application with CRUD operations using sqlite as the database."
-  },
-  {
-    "id": 7,
-    "name": "Node/express API",
-    "image": "/images/projects/nodeApiMongodb.png",
-    "tags": ["react", "express", "typescript", "mongodb"],
-    "repo": "https://github.com/AbdulSamman/node-api-mongodb",
-    "url": "",
-    "description": "Implement a Node.js/express API that utilizes a basic express server and mongodb as the data source."
-  },
+
   {
     "id": 8,
     "name": "Tic Tac Toe",
@@ -295,5 +297,41 @@
     "repo": "https://github.com/AbdulSamman/mern-crud-frontend",
     "url": "",
     "description": "Create a MERN CRUD BOOKS with express server "
+  },
+  {
+    "id": 34,
+    "name": "Vitest",
+    "image": "/images/projects/vitest.png",
+    "tags": ["react", "vitest", "typescript"],
+    "repo": "https://github.com/AbdulSamman/first-test-vitest",
+    "url": "",
+    "description": "Simple react Site with simple Vitest"
+  },
+  {
+    "id": 35,
+    "name": "SQlite CRUD flashcards",
+    "image": "/images/projects/sqliteCrudFlashcards.png",
+    "tags": ["react", "scss", "typescript", "sqlite", "express"],
+    "repo": "https://github.com/AbdulSamman/sqlite-crud-flashcards-frontend",
+    "url": "",
+    "description": "Develop a basic full-stack flashcards application with CRUD functionality"
+  },
+  {
+    "id": 36,
+    "name": "SQlite readonly flashcards",
+    "image": "/images/projects/sqliteReadonlyFlashcards.png",
+    "tags": ["react", "scss", "typescript", "express", "sqlite"],
+    "repo": "https://github.com/AbdulSamman/sqlite-readonly-flashcards-frontend",
+    "url": "",
+    "description": "Create a readonly full-stack flashcards application with CRUD operations using sqlite as the database."
+  },
+  {
+    "id": 37,
+    "name": "Node/express API",
+    "image": "/images/projects/nodeApiMongodb.png",
+    "tags": ["react", "express", "typescript", "mongodb"],
+    "repo": "https://github.com/AbdulSamman/node-api-mongodb",
+    "url": "",
+    "description": "Implement a Node.js/express API that utilizes a basic express server and mongodb as the data source."
   }
 ]
