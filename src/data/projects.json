@@ -333,5 +333,14 @@
     "repo": "https://github.com/AbdulSamman/node-api-mongodb",
     "url": "",
     "description": "Implement a Node.js/express API that utilizes a basic express server and mongodb as the data source."
+  },{
+    "id": 38,
+    "name": "Get jobs new version",
+    "image": "/images/projects/getJobs-newVersion.png",
+    "tags": ["react", "express", "typescript", "sass"],
+    "repo": "https://github.com/AbdulSamman/getJobs-frontend-newVersion",
+    "url": "",
+    "description": "In diesem Abschnitt geht es darum, wie Daten aus einer API geholt und bearbeitet werden können. Wir werden zwei verschiedene Lösungen betrachten: eine mit Arrays und eine mit Objekten."
+
   }
 ]
