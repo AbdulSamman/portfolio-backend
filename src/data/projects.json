@@ -337,7 +337,7 @@
     "id": 38,
     "name": "Get jobs new version",
     "image": "/images/projects/getJobs-newVersion.png",
-    "tags": ["react", "express", "typescript", "sass"],
+    "tags": ["react", "express", "typescript", "scss"],
     "repo": "https://github.com/AbdulSamman/getJobs-frontend-newVersion",
     "url": "",
     "description": "In diesem Abschnitt geht es darum, wie Daten aus einer API geholt und bearbeitet werden können. Wir werden zwei verschiedene Lösungen betrachten: eine mit Arrays und eine mit Objekten."
