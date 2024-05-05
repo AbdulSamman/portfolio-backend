@@ -1,43 +1,7 @@
 [
-  {
-    "id": 1,
-    "name": "Watch",
-    "image": "/images/projects/watch.png",
-    "tags": ["react", "scss", "typescript"],
-    "repo": "https://github.com/AbdulSamman/watch",
-    "url": "https://watch-gules-rho.vercel.app/",
-    "description": "This is a frontend-designed Watch"
-  },
-  {
-    "id": 2,
-    "name": "German Article Pratcise",
-    "image": "/images/projects/germanArticle.png",
-    "tags": ["react", "scss", "typescript"],
-    "repo": "https://github.com/AbdulSamman/german-article",
-    "url": "https://german-article.vercel.app/",
-    "description": "This is a nominative German article practice designed for frontend use"
-  },
-  {
-    "id": 3,
-    "name": "Sass basics",
-    "image": "/images/projects/sassBasics.png",
-    "tags": ["react", "scss", "typescript"],
-    "repo": "https://github.com/AbdulSamman/sass-basic",
-    "url": "",
-    "description": "This is a frontend designed for Sass basics using loops"
-  },
-  {
-    "id": 4,
-    "name": "To-Do-App",
-    "image": "/images/projects/toDoApp.png",
-    "tags": ["react", "scss", "typescript"],
-    "repo": "https://github.com/AbdulSamman/toDoApp",
-    "url": "https://to-do-app-ten-pearl.vercel.app/",
-    "description": "This is a frontend designed to-do-app with local storage"
-  },
 
   {
-    "id": 5,
+    "id": 1,
     "name": "NextJs with Tailwind css",
     "image": "/images/projects/nextjs-tailwind.png",
     "tags": ["react", "tailwind", "typescript", "nextJs"],
@@ -46,7 +10,7 @@
     "description": "This is my augural project with Next.js and Tailwind. It demonstrates the utilization of Tailwind css (v3.2) in conjunction with Next.js."
   },
   {
-    "id": 6,
+    "id": 2,
     "name": "mongodbTest CRUD",
     "image": "/images/projects/mongodbTest.png",
     "tags": ["express", "mongodb", "typescript"],
@@ -55,7 +19,7 @@
     "description": "you can utilize REST to build a server using express and Mongoose. This will provide you with the ability to implement basic CRUD (Create, Read, Update, and Delete) functionality for your data."
   },
   {
-    "id": 7,
+    "id": 3,
     "name": "Cypress Test",
     "image": "/images/projects/cypressTest.png",
     "tags": ["react", "cypress", "typescript", "scss"],
@@ -65,7 +29,7 @@
   },
 
   {
-    "id": 8,
+    "id": 4,
     "name": "Tic Tac Toe",
     "image": "/images/projects/ticTacToe.png",
     "tags": ["html5", "css3", "javascript"],
@@ -74,7 +38,7 @@
     "description": "Develop a basic tic-tac-toe game using javascript."
   },
   {
-    "id": 9,
+    "id": 5,
     "name": "API NASA with subtitle VTT",
     "image": "/images/projects/NasaPicOfTHeDay.png",
     "tags": ["html5", "css3", "javascript"],
@@ -83,7 +47,7 @@
     "description": "API-NASA Pic of the Day with Subtitle VTT"
   },
   {
-    "id": 10,
+    "id": 6,
     "name": "DCI Chat Api",
     "image": "/images/projects/DCI-ChatApi.png",
     "tags": ["html5", "css3", "javascript"],
@@ -92,7 +56,7 @@
     "description": "Create a simple DCI Chat API"
   },
   {
-    "id": 11,
+    "id": 7,
     "name": "Bike Rental App",
     "image": "/images/projects/BikeRentalApp.png",
     "tags": ["react", "scss", "javascript"],
@@ -101,7 +65,7 @@
     "description": "Bike Renal App API with PIGEON MAPS"
   },
   {
-    "id": 12,
+    "id": 8,
     "name": "API CRUD MONGOOSE",
     "image": "/images/projects/apiMongoose-CRUD.png",
     "tags": ["react", "express", "typescript"],
@@ -110,7 +74,7 @@
     "description": "Create a simple server CRUD mongoose API"
   },
   {
-    "id": 13,
+    "id": 9,
     "name": "Node/express Api with JSON-file",
     "image": "/images/projects/NodeExpress-Api-JSONFILE.png",
     "tags": ["react", "scss", "typescript", "express"],
@@ -119,7 +83,7 @@
     "description": "Create simple Node/express Api with JSON-file"
   },
   {
-    "id": 14,
+    "id": 10,
     "name": "JACKPOT random number",
     "image": "/images/projects/jackpotNumber.png",
     "tags": ["html5", "css3", "javascript"],
@@ -128,7 +92,7 @@
     "description": "Generate a random Jackpot number"
   },
   {
-    "id": 15,
+    "id": 11,
     "name": "Guess a number game",
     "image": "/images/projects/guessAnumberGame.png",
     "tags": ["html5", "css3", "javascript"],
@@ -137,7 +101,7 @@
     "description": "Guess a number game with three different levels"
   },
   {
-    "id": 16,
+    "id": 12,
     "name": "BMI Calculator",
     "image": "/images/projects/BMI-calculator.png",
     "tags": ["html5", "css3", "javascript"],
@@ -146,7 +110,7 @@
     "description": "simple BMI calculator with Weight, Hight and Age. with localStorage to see the last result"
   },
   {
-    "id": 17,
+    "id": 13,
     "name": "react zustand with JSON server",
     "image": "/images/projects/zustand-json-server.png",
     "tags": ["react", "scss", "typescript"],
@@ -155,7 +119,7 @@
     "description": "simple JSON server with react zustand"
   },
   {
-    "id": 18,
+    "id": 14,
     "name": "DEMO zustand",
     "image": "/images/projects/DEMO-zustand.png",
     "tags": ["react", "scss", "typescript"],
@@ -164,7 +128,7 @@
     "description": "simple dynamic DEMO react zustand"
   },
   {
-    "id": 19,
+    "id": 15,
     "name": "react useContext with JSON server",
     "image": "/images/projects/zustand-json-server.png",
     "tags": ["react", "scss", "typescript"],
@@ -173,7 +137,7 @@
     "description": "simple  JSON server with react useContext"
   },
   {
-    "id": 20,
+    "id": 16,
     "name": "ejs Basics",
     "image": "/images/projects/ejsBasics.png",
     "tags": ["ejs", "typescript", "express"],
@@ -182,7 +146,7 @@
     "description": "ejs basics with express server"
   },
   {
-    "id": 21,
+    "id": 17,
     "name": "Get Job/todos",
     "image": "/images/projects/getajob.png",
     "tags": ["react", "typescript", "scss"],
@@ -191,7 +155,7 @@
     "description": "Get job/tods frontend/backend"
   },
   {
-    "id": 22,
+    "id": 18,
     "name": "MakeUp shop",
     "image": "/images/projects/makeUpShop.png",
     "tags": ["react", "typescript", "scss"],
@@ -200,7 +164,7 @@
     "description": "MakeUp shop frontend with react route"
   },
   {
-    "id": 23,
+    "id": 19,
     "name": "Node Web server",
     "image": "/images/projects/node-web-server.png",
     "tags": ["typescript"],
@@ -209,7 +173,7 @@
     "description": "simple Node web server using typescript"
   },
   {
-    "id": 24,
+    "id": 20,
     "name": "Travel Info Site",
     "image": "/images/projects/infoTravilSite.png",
     "tags": ["react", "scss", "typescript"],
@@ -218,7 +182,7 @@
     "description": "Travel Info Site using react router"
   },
   {
-    "id": 25,
+    "id": 21,
     "name": "FORM with JSON server",
     "image": "/images/projects/formJsonServer.png",
     "tags": ["react", "scss", "typescript"],
@@ -227,7 +191,7 @@
     "description": "simple form JSON server using typescript"
   },
   {
-    "id": 26,
+    "id": 22,
     "name": "CUSTOM HOOKS",
     "image": "/images/projects/customHooks.png",
     "tags": ["react", "scss", "typescript"],
@@ -236,7 +200,7 @@
     "description": "simple custom hooks useToggle, useFetch using typescript"
   },
   {
-    "id": 27,
+    "id": 23,
     "name": "Dynamic styling",
     "image": "/images/projects/dynamicStyling.png",
     "tags": ["react", "scss", "typescript"],
@@ -245,7 +209,7 @@
     "description": "simple Dynamic styling using typescript, react, scss"
   },
   {
-    "id": 28,
+    "id": 24,
     "name": "Book Info Site JSX Basic",
     "image": "/images/projects/jsxBasics.png",
     "tags": ["react", "scss", "typescript"],
@@ -254,7 +218,7 @@
     "description": "Book Info Site, JSX Basic with localStorage using typescript"
   },
   {
-    "id": 29,
+    "id": 25,
     "name": "German Nouns",
     "image": "/images/projects/germanNouns.png",
     "tags": ["react", "scss", "typescript"],
@@ -263,7 +227,7 @@
     "description": "German nouns learn mark with localStorage using typescript"
   },
   {
-    "id": 30,
+    "id": 26,
     "name": "Deployment with Netlify and Vercel",
     "image": "/images/projects/deploymentNetlifyVercel.png",
     "tags": ["react", "scss", "typescript"],
@@ -272,7 +236,7 @@
     "description": "Deploying with netlify and vercel, we need _redirect for netlify and vercel.json for vercel"
   },
   {
-    "id": 31,
+    "id": 27,
     "name": "Crypto converter",
     "image": "/images/projects/cryptoConverter.png",
     "tags": ["html5", "css3", "javascript"],
@@ -281,7 +245,7 @@
     "description": "Create a simple Crypto converter using javsscript"
   },
   {
-    "id": 32,
+    "id": 28,
     "name": "GitHub username repos API",
     "image": "/images/projects/GithubUsername.png",
     "tags": ["html5", "css3", "javascript"],
@@ -290,7 +254,7 @@
     "description": "Create a simple github username repositories API"
   },
   {
-    "id": 33,
+    "id": 29,
     "name": "MERN CRUD BOOKS",
     "image": "/images/projects/mern-Crud-Books.png",
     "tags": ["react", "scss", "typescript", "mongodb", "express"],
@@ -299,7 +263,7 @@
     "description": "Create a MERN CRUD BOOKS with express server "
   },
   {
-    "id": 34,
+    "id": 30,
     "name": "Vitest",
     "image": "/images/projects/vitest.png",
     "tags": ["react", "vitest", "typescript"],
@@ -308,7 +272,7 @@
     "description": "Simple react Site with simple Vitest"
   },
   {
-    "id": 35,
+    "id": 31,
     "name": "SQlite CRUD flashcards",
     "image": "/images/projects/sqliteCrudFlashcards.png",
     "tags": ["react", "scss", "typescript", "sqlite", "express"],
@@ -317,7 +281,7 @@
     "description": "Develop a basic full-stack flashcards application with CRUD functionality"
   },
   {
-    "id": 36,
+    "id": 32,
     "name": "SQlite readonly flashcards",
     "image": "/images/projects/sqliteReadonlyFlashcards.png",
     "tags": ["react", "scss", "typescript", "express", "sqlite"],
@@ -326,7 +290,7 @@
     "description": "Create a readonly full-stack flashcards application with CRUD operations using sqlite as the database."
   },
   {
-    "id": 37,
+    "id": 33,
     "name": "Node/express API",
     "image": "/images/projects/nodeApiMongodb.png",
     "tags": ["react", "express", "typescript", "mongodb"],
@@ -334,7 +298,7 @@
     "url": "",
     "description": "Implement a Node.js/express API that utilizes a basic express server and mongodb as the data source."
   },{
-    "id": 38,
+    "id": 34,
     "name": "Get jobs new version",
     "image": "/images/projects/getJobs-newVersion.png",
     "tags": ["react", "express", "typescript", "scss"],
@@ -342,5 +306,52 @@
     "url": "",
     "description": "In diesem Abschnitt geht es darum, wie Daten aus einer API geholt und bearbeitet werden können. Wir werden zwei verschiedene Lösungen betrachten: eine mit Arrays und eine mit Objekten."
 
+  },
+  {
+    "id": 35,
+    "name": "Watch",
+    "image": "/images/projects/watch.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/watch",
+    "url": "https://watch-gules-rho.vercel.app/",
+    "description": "This is a frontend-designed Watch"
+  },
+  {
+    "id": 36,
+    "name": "German Article Pratcise",
+    "image": "/images/projects/germanArticle.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/german-article",
+    "url": "https://german-article.vercel.app/",
+    "description": "This is a nominative German article practice designed for frontend use"
+  },
+  {
+    "id": 37,
+    "name": "Sass basics",
+    "image": "/images/projects/sassBasics.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/sass-basic",
+    "url": "",
+    "description": "This is a frontend designed for Sass basics using loops"
+  },
+  {
+    "id": 38,
+    "name": "To-Do-App",
+    "image": "/images/projects/toDoApp.png",
+    "tags": ["react", "scss", "typescript"],
+    "repo": "https://github.com/AbdulSamman/toDoApp",
+    "url": "https://to-do-app-ten-pearl.vercel.app/",
+    "description": "This is a frontend designed to-do-app with local storage"
+  },
+  {
+    "id": 39,
+    "name": "Social Play Community",
+    "image": "/images/projects/socialPlay.png",
+    "tags": ["react", "scss", "typescript","tailwind","express"],
+    "repo": "https://github.com/social-play",
+    "url": "https://socialplay.netlify.app/",
+    "description": "This is a fullstack- MERNstack social play community final project"
   }
+
+
 ]
