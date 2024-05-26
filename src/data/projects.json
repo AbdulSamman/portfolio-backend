@@ -351,6 +351,15 @@
     "repo": "https://github.com/social-play",
     "url": "https://socialplay.netlify.app/",
     "description": "This is a fullstack- MERNstack social play community final project"
+  },
+  {
+    "id": 40,
+    "name": "Full-stack crud-jobs",
+    "image": "/images/projects/getAjob-lowdb.png",
+    "tags": ["react", "scss", "typescript","lowdb"],
+    "repo": "https://github.com/AbdulSamman/getJobs-crud-frontend",
+    "url": "",
+    "description": "This is a fullstack- get job API project with lowdb"
   }
 
 
