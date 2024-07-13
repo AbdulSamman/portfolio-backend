@@ -360,7 +360,17 @@
     "repo": "https://github.com/AbdulSamman/getJobs-crud-frontend",
     "url": "",
     "description": "This is a fullstack- get job API project with lowdb"
+  },
+  {
+    "id": 41,
+    "name": "Full-stack E-commerce Shop",
+    "image": "/images/projects/ecommerce-nextJs.png",
+    "tags": ["nextJs", "tailwind", "typescript","strapi","postgres"],
+    "repo": "https://github.com/AbdulSamman/ecommerce-frontend-nextJs",
+    "url": "https://technicalserv.netlify.app/",
+    "description": "This is a fullstack- ecommerce shop API project with strapi backend"
   }
+
 
 
 ]
