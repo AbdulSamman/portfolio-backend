@@ -36,10 +36,17 @@
     "title":"devtools",
     "skills":["vercel","netlify","hetzner","render"]
 
-  },  {
+  },
+  {
     "id":7,
     "title":"others",
     "skills":["strapi"]
+
+  },
+  {
+    "id":7,
+    "title":"libraries",
+    "skills":["tailwind","bootstrap"]
 
   }
 ]
