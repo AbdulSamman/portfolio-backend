@@ -1,21 +1,21 @@
 [
   {
     "id":1,
-    "title":"backend",
-    "skills":["javaScript","typeScript","nodeJs"]
+    "title":"frameworks",
+    "skills":["react","vite","nextjs","expressJs"]
 
   },
   {
     "id":2,
-    "title":"frontend",
-    "skills":["javaScript","typeScript","react","vite","html5","sass","tailwind","bootstrap","css3"]
+    "title":"technologies",
+    "skills":["javaScript","typeScript","html5","css3","sass","nodeJs"]
 
   },
   {
 
     "id":3,
     "title":"database",
-    "skills":["mongoDb","noSql"]
+    "skills":["mongoDb","noSql","postgres"]
 
   },
   {
@@ -28,13 +28,18 @@
   {
     "id":5,
     "title":"testing",
-    "skills":["cypress"]
+    "skills":["cypress","vitest"]
 
   },
   {
     "id":6,
     "title":"devtools",
     "skills":["vercel","netlify","hetzner","render"]
+
+  },  {
+    "id":7,
+    "title":"others",
+    "skills":["strapi"]
 
   }
 ]
